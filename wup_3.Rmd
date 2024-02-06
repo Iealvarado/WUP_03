@@ -17,6 +17,15 @@ davisdata <- read.csv(file="UCDavis.csv")
 ## Our Goal is to answer this question Is there a difference between the alcohol consumed between the row
 ## you choose to sit in??
 
+#Introduction
+
+Data is from UCDavis.csv
+Is the average amount of alcohol consume per week different for the diffent seating rows
+
+$H_0$ : there is no difference between the average amount of alcohol consumed per week based on seating row
+
+$H_0$ : there is a difference between the average amount of alcohol consumed per week based on seating row
+
 ## Now with ggplot - first select the basic data
 
 ```{r}
